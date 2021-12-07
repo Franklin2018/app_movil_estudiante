@@ -17,6 +17,7 @@ class BotonPrincipal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var primaryColor = Theme.of(context).primaryColor;
+    // ignore: deprecated_member_use
     return RaisedButton(
       elevation: 2,
       highlightElevation: 5,

@@ -1,5 +1,5 @@
 import 'package:app_movil_estudiante/pages/registro/formEstudiante.dart';
-import 'package:date_format/date_format.dart';
+//import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:app_movil_estudiante/models/persona.dart';
@@ -82,6 +82,7 @@ class _RegisterUserPageState extends State<RegisterUserPage> {
                           "El registro de ${usuario.correo} se ha completado exitosamente, ingrese para continuar",
                         ),
                         actions: <Widget>[
+                          // ignore: deprecated_member_use
                           new FlatButton(
                             child: new Text("Inicio"),
                             onPressed: () {
@@ -103,6 +104,7 @@ class _RegisterUserPageState extends State<RegisterUserPage> {
                         return Row(
                           children: [
                             Container(
+                              // ignore: deprecated_member_use
                               child: FlatButton(
                                 child: Text(
                                   "Atras",

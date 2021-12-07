@@ -92,6 +92,7 @@ class _HomePageBody extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // ignore: deprecated_member_use
               RaisedButton(
                 child: Text('Logout'),
                 onPressed: () async {

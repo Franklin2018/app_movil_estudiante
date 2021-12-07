@@ -120,6 +120,7 @@ Future _seleccionarFoto(
         ),
       ),
       actions: [
+        // ignore: deprecated_member_use
         FlatButton(
             onPressed: () => Navigator.pop(context), child: Text('Cerrar')),
       ],

@@ -9,7 +9,7 @@ import 'package:app_movil_estudiante/widgets/form_field_input/dropdown_form_inpu
 import 'package:app_movil_estudiante/widgets/form_field_input/form_field_input.dart';
 import 'package:app_movil_estudiante/widgets/form_field_input/image_form_input.dart';
 import 'package:date_format/date_format.dart';
-import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
+//import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 // typedef SCallback = Function(Trabajador persona);
 
